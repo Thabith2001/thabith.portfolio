@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body{
+    background-color: #222222;
+    background-image: radial-gradient(rgb(209, 206, 206) 1.2000000000000002px, #222222 1.2000000000000002px);
+    background-size: 40px 40px;
+}
+
+.hello{
+    color: #f59e0b;
+}
