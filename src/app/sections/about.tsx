@@ -41,7 +41,7 @@ export default function AboutSection() {
                             Shahul Hameed</h2>
                         <span
                             className="inline-block  text-[11px] font-light text-green-400 bg-green-400/8 border border-green-400/25 rounded px-2.5 py-1 mb-5">
-              Associate Full Stack Engineer
+              Associate Full Stack Software Engineer
             </span>
 
                         {/* Contact */}
