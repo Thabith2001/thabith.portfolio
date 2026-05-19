@@ -122,7 +122,7 @@ const SkillsChart = () => {
                     </div>
 
                     {/* Right */}
-                    <div className="relative w-full h-100 lg:mt-24">
+                    <div className="relative focus:outline-none w-full h-100 lg:mt-24">
                         <ResponsiveContainer width="100%" height="100%">
                             <PieChart>
                                 <Pie

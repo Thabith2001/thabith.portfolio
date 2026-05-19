@@ -116,11 +116,11 @@ const Contacts = () => {
 
                         {/* Social */}
                         <div className="flex gap-4 mt-10">
-                            <a href="https://github.com" className="text-[#a3a39d] hover:text-green-400">
+                            <a href="https://github.com/thabith2001" className="text-[#a3a39d] hover:text-green-400">
                                 <FaGithub size={20} />
                             </a>
 
-                            <a href="https://linkedin.com" className="text-[#a3a39d] hover:text-green-400">
+                            <a href="https://www.linkedin.com/in/thabithshahulhameed/" className="text-[#a3a39d] hover:text-green-400">
                                 <FaLinkedinIn size={20} />
                             </a>
 

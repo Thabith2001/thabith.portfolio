@@ -2,7 +2,8 @@ import React from 'react';
 import Header from '@/src/components/header';
 import type { Metadata } from 'next';
 import {orbitronFont} from "@/src/resources/fonts";
-import Footer from "@/src/components/footer";
+import Footer from "@/src/components/footer"
+import '@/src/app/globals.css';
 
 export const metadata: Metadata = {
     title: "Thabith's Portfolio",

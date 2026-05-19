@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+
 
 body{
     background-color: #222222;
@@ -6,6 +8,4 @@ body{
     background-size: 40px 40px;
 }
 
-.hello{
-    color: #f59e0b;
-}
+

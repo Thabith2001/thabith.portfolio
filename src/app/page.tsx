@@ -1,5 +1,6 @@
+
 import React from 'react';
-import './globals.css';
+
 
 import Hero from '@/src/app/sections/hero';
 import About from '@/src/app/sections/about';

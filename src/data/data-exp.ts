@@ -85,12 +85,12 @@ export const social = [
     {
         icon: IoLogoGithub,
         text: "GitHub",
-        link: "https://github.com/ThabithShahul",
+        link: "https://github.com/thabith2001",
     },
     {
         icon: AiOutlineGlobal,
         text: "thabith.dev",
-        link: "https://thabith.dev/",
+        link: "https://thabith-portfolio.vercel.app/",
     },
 ];
 
