@@ -58,7 +58,7 @@ import {
 } from "react-icons/io5";
 
 import {FaLinkedinIn} from "react-icons/fa";
-import {GiFeather, GiSriLanka} from "react-icons/gi";
+import {GiFeather, GiSriLanka,GiCooler} from "react-icons/gi";
 import {AiOutlineGlobal} from "react-icons/ai";
 
 export const social = [
