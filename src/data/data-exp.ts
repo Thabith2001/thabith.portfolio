@@ -129,13 +129,13 @@ export const projects = [
     {
         icon: GiCooler,
         name: "Fn Traders",
-        desc: "FN Traders is a modern e-commerce web application developed based on real-world customer requirements, with a focus on providing a seamless product browsing experience for customers and efficient business management tools for administrators.
+        desc: "FN Traders is a modern e-commerce web application developed based on real-world customer requirements, with a focus on providing a seamless product browsing experience for customers and efficient business management tools for administrators."
 
-The customer-facing side allows users to explore the available products through multiple features, including view all products, individual product details, product filtering, and advanced search functionality. These features make it easier for customers to quickly find products based on their specific requirements.
++"The customer-facing side allows users to explore the available products through multiple features, including view all products, individual product details, product filtering, and advanced search functionality. These features make it easier for customers to quickly find products based on their specific requirements."
 
-The admin dashboard provides comprehensive tools for managing the business and products. Administrators can perform Create, Read, Update, and Delete (CRUD) operations, monitor product stock levels, and view revenue calculations to support better business decision-making. The system also includes cookie management to handle relevant user and application data securely.
++"The admin dashboard provides comprehensive tools for managing the business and products. Administrators can perform Create, Read, Update, and Delete (CRUD) operations, monitor product stock levels, and view revenue calculations to support better business decision-making. The system also includes cookie management to handle relevant user and application data securely."
 
-Overall, FN Traders demonstrates the development of a real-world, requirement-driven e-commerce solution, combining a user-friendly customer interface with a powerful administrative management system.",
++"Overall, FN Traders demonstrates the development of a real-world, requirement-driven e-commerce solution, combining a user-friendly customer interface with a powerful administrative management system.",
         tags: ["Next Js, typescript , tailwind css , axios ,mongoDB "],
         stars: 0,
         forks: 0,
