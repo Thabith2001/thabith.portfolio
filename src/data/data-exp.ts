@@ -136,7 +136,7 @@ export const projects = [
 +"The admin dashboard provides comprehensive tools for managing the business and products. Administrators can perform Create, Read, Update, and Delete (CRUD) operations, monitor product stock levels, and view revenue calculations to support better business decision-making. The system also includes cookie management to handle relevant user and application data securely."
 
 +"Overall, FN Traders demonstrates the development of a real-world, requirement-driven e-commerce solution, combining a user-friendly customer interface with a powerful administrative management system.",
-        tags: ["Next Js, typescript , tailwind css , axios ,mongoDB "],
+        tags: ["Next Js", "typescript" , "tailwind css" , "axios" ,"mongoDB "],
         stars: 0,
         forks: 0,
         views: 0,
