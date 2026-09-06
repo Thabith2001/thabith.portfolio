@@ -125,6 +125,17 @@ export const projects = [
         views: 0,
         github: "https://github.com/Thabith2001/Music-Streaming-Application",
         live: "",
+    },
+    {
+        icon: GiCooler,
+        name: "Fn Traders",
+        desc: "This Webapplication is developed based on real customer requirement it has customer side product view , view all , single product , filter Product , advanced search  and in the admin side revenue calculations, stock checking ,  create read update delete and cookies managed ",
+        tags: ["Next Js, typescript , tailwind css , axios ,mongoDB "],
+        stars: 0,
+        forks: 0,
+        views: 0,
+        github: "https://github.com/Thabith2001/fn_traders",
+        live: "https://fn-traders-delta.vercel.app/",
     }
 ];
 
