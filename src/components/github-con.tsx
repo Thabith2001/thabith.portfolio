@@ -15,7 +15,6 @@ const GitHubCalendar = dynamic(
 const GithubSection = () => {
     return (
         <section
-            id="github"
             className="relative py-24 px-6 overflow-hidden"
         >
             {/* Background Glow */}
