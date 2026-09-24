@@ -21,7 +21,7 @@ const Header = () => {
 
 
     useEffect(() => {
-        const sections = document.querySelectorAll("section");
+        const sections = document.querySelectorAll(".portfolio-section");
 
         const observer = new IntersectionObserver(
             (entries) => {
