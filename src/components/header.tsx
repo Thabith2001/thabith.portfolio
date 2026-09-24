@@ -28,6 +28,7 @@ const Header = () => {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
                         setActive(entry.target.id);
+                        console.log(entry.target.id);
                     }
                 });
             },
