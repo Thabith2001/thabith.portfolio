@@ -58,7 +58,7 @@ import {
 } from "react-icons/io5";
 
 import {FaLinkedinIn} from "react-icons/fa";
-import {GiFeather, GiSriLanka} from "react-icons/gi";
+import {GiFeather, GiSriLanka,GiCooler} from "react-icons/gi";
 import {AiOutlineGlobal} from "react-icons/ai";
 
 export const social = [
@@ -125,7 +125,18 @@ export const projects = [
         views: 0,
         github: "https://github.com/Thabith2001/Music-Streaming-Application",
         live: "",
-    }
+    },
+    {
+    icon: GiCooler,
+    name: "Fn Traders",
+    desc: "FN Traders is a modern e-commerce web application developed based on real-world customer requirements. The customer side provides product browsing, individual product views, filtering, and advanced search. The admin dashboard supports product CRUD operations, stock monitoring, revenue calculations, and cookie management, providing an efficient solution for both customers and administrators.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Axios", "MongoDB"],
+    stars: 0,
+    forks: 0,
+    views: 0,
+    github: "https://github.com/Thabith2001/fn_traders",
+    live: "https://fn-traders-delta.vercel.app/",
+}
 ];
 
 export  const datasets = {
