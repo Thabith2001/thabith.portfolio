@@ -92,7 +92,7 @@ export default function AboutSection() {
                         ))}
 
                         <div className="mt-10">
-                            <a href="/resume/Mohamed_Thabith_Associate_Software_Engineer.pdf" className={` bg-green-400 hover:bg-green-300 p-2 rounded-sm font-bold`}>Download Resume
+                            <a href="/resume/Mohamed_Thabith_Graduate_Software_Engineer.pdf" className={` bg-green-400 hover:bg-green-300 p-2 rounded-sm font-bold`}>Download Resume
                             </a>
                         </div>
                     </div>
