@@ -21,18 +21,31 @@ const Header = () => {
 
 
     useEffect(() => {
-        const sections = document.querySelectorAll("section");
+        const sections = document.querySelectorAll<HTMLElement>(
+            ".portfolio-section"
+        );
 
         const observer = new IntersectionObserver(
             (entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        setActive(entry.target.id);
+                const visibleSections = entries
+                    .filter((entry) => entry.isIntersecting)
+                    .sort(
+                        (a, b) =>
+                            Math.abs(a.boundingClientRect.top - 100) -
+                            Math.abs(b.boundingClientRect.top - 100)
+                    );
+
+                if (visibleSections.length > 0) {
+                    const id = visibleSections[0].target.id;
+
+                    if (id) {
+                        setActive(id);
                     }
-                });
+                }
             },
             {
-                threshold: 0.6,
+                rootMargin: "-100px 0px -60% 0px",
+                threshold: 0,
             }
         );
 
