@@ -60,7 +60,7 @@ const Contacts = () => {
     return (
         <section
             className="relative overflow-hidden px-6 py-24"
-            id="contact"
+
         >
             <div className="absolute -top-24 -right-20 w-80 h-80 rounded-full bg-green-600/10 blur-[120px] pointer-events-none" />
 

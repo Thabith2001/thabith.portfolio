@@ -6,7 +6,7 @@ import {Menu, X} from 'lucide-react';
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
-    const [isActive, setActive] = useState('home');
+    const [isActive, setActive] = useState('hero');
 
     useEffect(() => {
         const handleScroll = () => {
@@ -21,25 +21,34 @@ const Header = () => {
 
 
     useEffect(() => {
-        const sections = document.querySelectorAll("section");
+        const sections = document.querySelectorAll(".portfolio-section");
 
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        setActive(entry.target.id);
-                    }
-                });
-            },
-            {
-                threshold: 0.6,
-            }
-        );
+        const handleScroll = () => {
+            const scrollPosition = window.scrollY + 150;
 
-        sections.forEach((section) => observer.observe(section));
+            let currentSection = "hero";
 
-        return () => observer.disconnect();
+            sections.forEach((section) => {
+                const element = section as HTMLElement;
+
+                if (scrollPosition >= element.offsetTop) {
+                    currentSection = element.id;
+                }
+            });
+
+            setActive(currentSection);
+            console.log("Active section:", currentSection);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        handleScroll();
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
     }, []);
+
 
 
 

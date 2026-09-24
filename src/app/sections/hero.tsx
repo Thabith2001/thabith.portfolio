@@ -5,7 +5,7 @@ import {FaGithub, FaLinkedin} from "react-icons/fa";
 const Hero = () => {
     return (
         <section
-            id="hero"
+
             className="relative min-h-screen overflow-hidden flex items-center justify-center px-6"
         >
             {/* Background */}

@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 
@@ -10,16 +9,29 @@ import WhatsAppFloat from "@/src/components/whatsapp-float";
 import Contacts from "@/src/app/sections/contacts";
 
 
-
 const Home = () => {
     return (
         <main className="w-full min-h-screen overflow-x-hidden">
-            <Hero />
-            <About />
-            <Projects />
-            <Skills />
-            <WhatsAppFloat />
-            <Contacts/>
+            <section id="hero" className="portfolio-section">
+                <Hero />
+            </section>
+
+            <section id="about" className="portfolio-section">
+                <About />
+            </section>
+
+            <section id="projects" className="portfolio-section">
+                <Projects />
+            </section>
+
+            <section id="skills" className="portfolio-section">
+                <Skills />
+            </section>
+
+            <section id="contact" className="portfolio-section">
+                <Contacts />
+            </section>
+            <WhatsAppFloat/>
         </main>
     );
 };

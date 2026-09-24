@@ -19,7 +19,6 @@ const SkillsChart = () => {
 
     return (
         <section
-            id="skills"
             className="relative py-28 px-6 overflow-hidden"
         >
             {/* Glow */}

@@ -4,7 +4,7 @@ import SkillsChart from "@/src/components/pie-chart";
 
 const Skills = () => {
     return (
-        <section className={`relative min-h-screen overflow-hidden px-6 py-20`} id="skills">
+        <section className={`relative min-h-screen overflow-hidden px-6 py-20`}>
             <div
                 className="absolute -top-24 -right-20 w-80 h-80 rounded-full bg-green-600 opacity-[0.08] blur-[80px] pointer-events-none"/>
 
